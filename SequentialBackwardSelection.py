@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.cross_validation import train_test_split
 from sklearn.metrics import accuracy_score
 
+# 4章-5
 # 逐次後退選択(Sequential Backward Selection :SBS)
 # 新しい特徴部分空間に目的の個数の特徴量が含まれるまで、特徴量全体から特徴量を逐次的に削除していく
 # 各段階で削除する特徴量を決定するには、最小化したい評価関数Jを定義する

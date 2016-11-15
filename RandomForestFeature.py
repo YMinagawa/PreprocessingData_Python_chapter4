@@ -7,7 +7,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 
-#ランダムフォレストモデルで特徴量の重要度にアクセスする
+#ランダムフォレストモデルで特徴量の重要度にアクセスする(4章-6)
 
 # wineデータセットを読み込む
 df_wine = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data', header=None)
